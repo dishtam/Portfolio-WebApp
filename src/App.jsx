@@ -4,11 +4,12 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-
+import BackgroundImage from "./components/BackgroundImage"
 function App() {
   return (
     <>
       <BrowserRouter className="bebas-neue-regular">
+        <BackgroundImage/>
         <Navbar />
         <Routes>
           <Route path={"/"} element={<About />} />

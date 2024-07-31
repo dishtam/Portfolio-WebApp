@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profilePic from "../assets/dp.png";
+import profilePic from "/dp.png";
 
 export default function About() {
   const [activeButton, setActiveButton] = useState("PERSONAL");
