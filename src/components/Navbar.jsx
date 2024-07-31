@@ -9,7 +9,7 @@ export default function Navbar() {
   };
 
   return (
-    <div>
+    <div className="">
       <div className="flex m-8 p-2 bg-transparent justify-between">
         {/* Logo */}
         <div className="flex flex-col justify-center content-center">
@@ -56,7 +56,7 @@ export default function Navbar() {
       </div>
       {/* Dropdown Menu */}
       <div
-        className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent z-10`}
+        className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent`}
       >
         <div className="flex flex-col items-center text-xl space-y-4">
           <Link to="/">About</Link>
