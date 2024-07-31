@@ -1,0 +1,23 @@
+
+/* custom.css */
+.item-active-1 {
+  @apply bg-gradient-to-r from-transparent to-purple-500 rounded-r-lg;
+}
+.item-active-2 {
+  @apply bg-gradient-to-r from-transparent to-blue-500 rounded-r-lg;
+}
+.item-active-3 {
+  @apply bg-gradient-to-r from-transparent to-cyan-500 rounded-r-lg;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.agbalumo-regular {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
