@@ -8,15 +8,17 @@ import BackgroundImage from "./components/BackgroundImage"
 function App() {
   return (
     <>
-      <BrowserRouter className="bebas-neue-regular">
-        <BackgroundImage/>
-        <Navbar />
-        <Routes>
-          <Route path={"/"} element={<About />} />
-          <Route path={"/skills"} element={<Skills />} />
-          <Route path={"/projects"} element={<Projects />} />
-          <Route path={"/contact"} element={<Contact />} />
-        </Routes>
+      <BrowserRouter>
+        <BackgroundImage />
+        <div className="flex flex-col h-screen">
+          <Navbar />
+          <Routes>
+            <Route path={"/"} element={<About />} />
+            <Route path={"/skills"} element={<Skills />} />
+            <Route path={"/projects"} element={<Projects />} />
+            <Route path={"/contact"} element={<Contact />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </>
   );
