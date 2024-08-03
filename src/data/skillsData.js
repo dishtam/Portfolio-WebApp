@@ -23,7 +23,7 @@ const skills = {
         },
         {
             id: 5,
-            title: "Tailwind CSS",
+            title: "Tailwind",
             level: 4
         },
         {

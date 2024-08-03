@@ -1,6 +1,6 @@
 import LevelBox from "./LevelBox";
-import data from "./skillsData";
-import Button from "/src/components/Button.jsx";
+import data from "../data/skillsData";
+import Button from "./Button";
 
 import React, { useState } from "react";
 
